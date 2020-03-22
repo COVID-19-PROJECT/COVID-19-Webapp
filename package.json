@@ -16,6 +16,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
     "lodash": "^4.17.15",
+    "markdown-it": "^10.0.0",
     "nuxt": "^2.0.0",
     "nuxt-i18n": "^6.6.1"
   },

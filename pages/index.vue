@@ -5,9 +5,7 @@
       <h1 class="title">
         {{ $t('general.site-name') }}
       </h1>
-      <h2 class="subtitle">
-        {{ $t('general.site-description') }}
-      </h2>
+      <h2 v-md="$t('general.site-description')" class="subtitle" />
     </div>
   </div>
 </template>
