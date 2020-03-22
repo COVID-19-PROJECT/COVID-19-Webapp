@@ -34,6 +34,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/markdown.js',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -51,8 +52,32 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     // Doc: https://github.com/nuxt-community/style-resources-module
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    // Doc: https://nuxt-community.github.io/nuxt-i18n/
+    'nuxt-i18n',
   ],
+  /**
+   * Nuxt-i18n module configuration
+   * See https://nuxt-community.github.io/nuxt-i18n/options-reference.html
+   */
+  i18n: {
+    locales: [
+      {
+        code: 'es-gt',
+        file: 'es-gt.json',
+        name: 'Español',
+      },
+    ],
+    defaultLocale: 'es-gt',
+    vueI18n: {
+      fallbackLocale: 'es-gt',
+    },
+    lazy: true,
+    langDir: 'lang/',
+    detectBrowserLanguage: {
+      useCookie: true,
+    },
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
