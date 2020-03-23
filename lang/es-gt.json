@@ -2,5 +2,11 @@
     "general": {
         "site-name": "Quedate en casa - GT",
         "site-description" : "Una aplicación para el seguimiento de la propagación del coronavirus en Guatemala.\n\nEspera por más actualizaciones."
+    },
+    "navigation": {
+        "terms-of-use": "Términos de uso"
+    },
+    "terms-of-use": {
+        "title": "Términos de uso"
     }
 }
