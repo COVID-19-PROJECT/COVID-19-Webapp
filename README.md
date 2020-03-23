@@ -12,6 +12,8 @@ See [nuxt directory structure](https://nuxtjs.org/guide/directory-structure/) fo
 
 * A local environment with node lts installed (v12.16, nvm recommended)
 * npm ~6.0.0
+* gulp ~4.0.0
+* poeditor.com access (for managing translations)
 
 ### Installing
 
