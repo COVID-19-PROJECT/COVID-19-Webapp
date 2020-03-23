@@ -4,7 +4,6 @@
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" :to="localePath('/')">
           <logo class="navbar-logo" />
-          <span class="title is-4">{{ $t('general.site-name') }}</span>
         </nuxt-link>
         <a
           role="button"
@@ -70,8 +69,7 @@ export default {
 <style lang="scss" scoped>
 .navbar-brand {
   .navbar-logo {
-    max-height: $size-1;
-    max-width: $size-1;
+    height: $size-1;
   }
 }
 </style>
