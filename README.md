@@ -23,9 +23,6 @@ npm install
 
 # Running local server at localhost:3000
 npm run dev
- 
-# generate static project
-npm run generate
 ```
 
 ## Running the tests
@@ -46,11 +43,25 @@ This project follows the [standard javascript style](https://standardjs.com/rule
 ```bash
 # Eslint
 npm run lint
+
+# Fix lint issues
+npm run lint -- -fix
 ```
 
 ## Deployment
 
-This project is currently being deployed using netlify.
+This project is currently being deployed using netlify. To deploy static files manually run the following commands:
+
+```bash
+# Install deps
+npm install
+
+# Build static app, everything is compiled into <project dir>/dist folder
+npm run build --spa
+
+# Example, use aws cli to copy to an s3 bucket
+aws s3 sync --delete ./dist "s3://$AWS_BUCKET_NAME"
+```
 
 ## Built With
 
