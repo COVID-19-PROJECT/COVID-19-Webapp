@@ -4,7 +4,12 @@
         "site-description" : "Una aplicación para el seguimiento de la propagación del coronavirus en Guatemala.\n\nEspera por más actualizaciones."
     },
     "navigation": {
-        "terms-of-use": "Términos de uso"
+        "terms-of-use": "Términos de uso",
+        "participate": "Participa"
+    },
+    "participate": {
+        "title": "Participa en el proyecto",
+        "intro-text": "**La ayuda es bienvenida.** Contesta el siguiente formulario para que el equipo pueda determinar de que manera puedes apoyar a nuestras necesidades.\n\nAlguien del equipo se contactará lo más pronto posible con más información de como participar."
     },
     "terms-of-use": {
         "title": "Términos de uso"
