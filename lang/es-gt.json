@@ -7,6 +7,12 @@
         "terms-of-use": "Términos de uso"
     },
     "terms-of-use": {
-        "title": "Términos de uso"
+        "title": "Términos de uso",
+        "disclamer-title": "Descargo de responsabilidad",
+        "disclamer-content": "Si necesita más información o tiene alguna pregunta sobre el descargo de responsabilidad de nuestro sitio, no dude en comunicarse con nosotros por correo electrónico a covid19projectapp@gmail.com.\n\nToda la información en este sitio web se publica de buena fe y solo con fines de información general. Nombre del sitio web no ofrece ninguna garantía sobre la integridad, fiabilidad y precisión de esta información. Cualquier acción que tome sobre la información que encuentre en este sitio web (quedateencasa.gt) es estrictamente bajo su propio riesgo. no será responsable de ninguna pérdida y / o daño en relación con el uso de nuestro sitio web.\n\nDesde nuestro sitio web, puede visitar otros sitios web siguiendo hipervínculos a dichos sitios externos. Si bien nos esforzamos por proporcionar solo enlaces de calidad a sitios web útiles y éticos, no tenemos control sobre el contenido y la naturaleza de estos sitios. Estos enlaces a otros sitios web no implican una recomendación para todo el contenido que se encuentra en estos sitios. Los propietarios del sitio y el contenido pueden cambiar sin previo aviso y pueden ocurrir antes de que tengamos la oportunidad de eliminar un enlace que puede haber resultado \"malo\".\n\nTenga en cuenta también que cuando abandona nuestro sitio web, otros sitios pueden tener políticas y términos de privacidad diferentes que están fuera de nuestro control. Asegúrese de consultar las Políticas de privacidad de estos sitios, así como sus \"Términos de servicio\" antes de realizar cualquier negocio o cargar cualquier información.",
+        "consent-title": "Consentimiento",
+        "consent-content": "Al usar nuestro sitio web, usted acepta nuestro descargo de responsabilidad y acepta sus términos.",
+        "updates-title": "Actualizaciones",
+        "updates-content": "En caso de que actualicemos, modifiquemos o realicemos cambios en este documento, dichos cambios se publicarán de manera destacada aquí."
     }
 }
