@@ -1,44 +1,41 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="container">
-      <div class="navbar-brand">
+  <header class="site-header clearfix">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col">
+					<div class="float-left logo">
         <nuxt-link class="navbar-item" :to="localePath('/')">
           <logo class="navbar-logo" />
         </nuxt-link>
-        <a
-          role="button"
-          class="navbar-burger"
-          :class="{'is-active': isActive}"
-          aria-label="menu"
-          aria-expanded="false"
-          @click="toggleMenu"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+					</div>	<!-- /.logo -->
 
-      <div class="navbar-menu" :class="{'is-active': isActive}">
-        <nuxt-link :to="localePath('/participate')" class="navbar-item is-hidden-desktop">
+					<div class="main-navigation float-right">
+
+						<nav class="main-nav visible-md visible-lg">
+							<ul class="sf-menu" >
+					            <li>        <nuxt-link :to="localePath('/participate')" class="navbar-item is-hidden-desktop">
           {{ $t('navigation.participate') }}
-        </nuxt-link>
-        <nuxt-link :to="localePath('/terms-of-use')" class="navbar-item is-hidden-desktop">
-          {{ $t('navigation.terms-of-use') }}
-        </nuxt-link>
-      </div>
+        </nuxt-link></li>
+							</ul> <!-- /.sf-menu -->
+						</nav> <!-- /.main-nav -->
 
-      <div class="navbar-end is-hidden-mobile is-hidden-tablet-only">
-        <div class="navbar-item">
-          <div class="buttons">
-            <nuxt-link :to="localePath('/participate')" class="button is-primary">
-              {{ $t('navigation.participate') }}
-            </nuxt-link>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
+						<!-- This one in here is responsive menu for tablet and mobiles -->
+					    <div class="responsive-navigation visible-sm visible-xs">
+					        <a href="#nogo" class="menu-toggle-btn">
+					            <i class="fa fa-bars"></i>
+					        </a>
+					    </div> <!-- /responsive_navigation -->
+
+					</div> <!-- /.main-navigation -->
+
+				</div> <!-- /.col-md-12 -->
+
+			</div> <!-- /.row -->
+
+		</div> <!-- /.container -->
+	</header> <!-- /.site-header -->
 </template>
 
 <script>
@@ -67,9 +64,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.navbar-brand {
-  .navbar-logo {
-    height: $size-1;
-  }
-}
+
 </style>
