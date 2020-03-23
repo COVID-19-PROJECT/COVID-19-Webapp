@@ -20,10 +20,10 @@
       </div>
 
       <div class="navbar-menu" :class="{'is-active': isActive}">
-        <nuxt-link :to="localePath('/participate')" class="navbar-item">
+        <nuxt-link :to="localePath('/participate')" class="navbar-item is-hidden-desktop">
           {{ $t('navigation.participate') }}
         </nuxt-link>
-        <nuxt-link :to="localePath('/terms-of-use')" class="navbar-item">
+        <nuxt-link :to="localePath('/terms-of-use')" class="navbar-item is-hidden-desktop">
           {{ $t('navigation.terms-of-use') }}
         </nuxt-link>
       </div>
