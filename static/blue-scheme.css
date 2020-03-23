@@ -446,6 +446,10 @@ input.mainBtn {
   background-image: url("images/guate.jpg");
 }
 
+#portfolio {
+  background-image: url("images/handshake.jpg");
+}
+
 .parallax {
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1258,7 +1262,7 @@ blockquote {
 
 .site-footer {
   background-color: #f1f4f5;
-  padding: 100px 0;
+  padding: 50px 0;
   color: #aaaaaa;
   font-family: "Raleway", sans-serif;
 }
