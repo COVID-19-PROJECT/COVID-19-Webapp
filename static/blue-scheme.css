@@ -1,18 +1,15 @@
 /*
-
 Medigo Template (Blue)
-
 http://www.templatemo.com/preview/templatemo_460_medigo
-
 */
 
 /*------------------------------------------------------
-	BASIC STYLES 
+	BASIC STYLES
 --------------------------------------------------------*/
 body {
   background: white;
   font-size: 16px;
-  font-family: "PT Serif", Georgia, serif;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 28px;
@@ -168,19 +165,19 @@ a, a:visited {
 }
 
 /*------------------------------------------------------
-	HEADER STYLES 
+	HEADER STYLES
 --------------------------------------------------------*/
 .site-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: #18367F;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
   -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
   z-index: 9999;
-  padding: 35px 0;
+  padding: 25px 0;
   overflow: visible;
   transition: padding 0.3s ease-in-out;
   -moz-transition: padding 0.3s ease-in-out;
@@ -188,23 +185,27 @@ a, a:visited {
 }
 
 .site-header.site-header-shrink {
-  padding: 17px 0;
+  padding: 20px 0;
 }
-
+.main-nav ul {
+  margin: 0;
+}
 .main-nav ul li {
   float: left;
   display: block;
   margin-left: 20px;
   position: relative;
 }
+
 .main-nav ul li a {
-  color: #31373a;
-  font-size: 13px;
+  color: #fff;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  padding: 5px 15px;
-  display: block;
+  padding: 15px 15px;
+  display: inline-block;
+  overflow: visible;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -212,14 +213,15 @@ a, a:visited {
   border-radius: 3px;
 }
 .main-nav ul li a:hover {
-  color: #00a8d6;
+  color: #3366FF;
+  background-color: #fff;
 }
 .main-nav ul li a i {
   margin-left: 7px;
 }
 .main-nav ul li.active a {
-  color: #00a8d6;
-  background-color: #f1f4f5;
+  background-color: #3366FF;
+  color: #f1f4f5;
 }
 .main-nav ul li ul {
   display: none;
@@ -303,7 +305,7 @@ a.menu-toggle-btn i {
 }
 
 /*------------------------------------------------------
-	General Styling 
+	General Styling
 --------------------------------------------------------*/
 .light-content {
   background-color: white;
@@ -512,7 +514,7 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Call To Action 
+	Call To Action
 --------------------------------------------------------*/
 .cta {
   padding: 35px 0;
@@ -526,7 +528,7 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Services Styling 
+	Services Styling
 --------------------------------------------------------*/
 .service-box-wrap {
   text-align: center;
@@ -547,7 +549,7 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Portfolio Styling 
+	Portfolio Styling
 --------------------------------------------------------*/
 .portfolio {
   margin-top: 40px;
@@ -841,7 +843,7 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Testimonials Styling 
+	Testimonials Styling
 --------------------------------------------------------*/
 .testimonials-widget {
   background-color: #f1f4f5;
@@ -896,7 +898,7 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Our Team Styling 
+	Our Team Styling
 --------------------------------------------------------*/
 .member-role {
   position: absolute;
@@ -923,7 +925,7 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Blog Styling 
+	Blog Styling
 --------------------------------------------------------*/
 #blogPosts .section-header {
   margin-top: 70px;
@@ -1126,7 +1128,7 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Sidebar Styling 
+	Sidebar Styling
 --------------------------------------------------------*/
 .sidebar {
   margin-top: 100px;
@@ -1213,7 +1215,7 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	Contact Page Styling 
+	Contact Page Styling
 --------------------------------------------------------*/
 .contact-wrapper h3 {
   margin: 0 0 30px 0;
@@ -1289,11 +1291,11 @@ blockquote {
 }
 
 /*------------------------------------------------------
-	RESPONSIVE STYLES 
+	RESPONSIVE STYLES
 --------------------------------------------------------*/
 @media (max-width: 991px) {
   .site-header {
-    padding: 17px 0;
+    padding: 18px 0;
     position: relative !important;
   }
 
@@ -1324,10 +1326,10 @@ blockquote {
   }
 }
 @media (max-width: 767px) {
-  .parallax { 
-	background-position: center center !important; 
+  .parallax {
+	background-position: center center !important;
   }
-	
+
   .cta .cta-title {
     display: block;
     margin-bottom: 30px;

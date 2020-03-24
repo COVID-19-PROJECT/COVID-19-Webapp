@@ -1,8 +1,9 @@
 <template>
-  <img width="100px" class="logo" src="~assets/images/logo.svg" />
+  <img class="logo" src="~assets/images/logo-blanco.svg" />
 </template>
 <style>
 .logo {
-  min-height: 1rem;
+  min-height: 2.5rem;
+  width: 35%;
 }
 </style>
