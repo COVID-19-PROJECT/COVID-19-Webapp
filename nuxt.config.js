@@ -13,6 +13,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap' }
     ],
   },
   /*
@@ -23,7 +24,9 @@ export default {
   ** Global CSS
   */
   css: [
-    '~assets/scss/vendor.scss'
+    '~assets/scss/vendor.scss',
+    '~static/misc.css',
+    '~static/blue-scheme.css'
   ],
   styleResources: {
     scss: [
