@@ -9,7 +9,9 @@
     },
     "participate": {
         "title": "Participa en el proyecto",
-        "intro-text": "**La ayuda es bienvenida.** Contesta el siguiente formulario para que el equipo pueda determinar de que manera puedes apoyar a nuestras necesidades.\n\nAlguien del equipo se contactará lo más pronto posible con más información de como participar."
+        "intro-text": "**La ayuda es bienvenida.** Contesta el siguiente formulario para que el equipo pueda determinar de que manera puedes apoyar a nuestras necesidades.\n\nAlguien del equipo se contactará lo más pronto posible con más información de como participar.",
+        "loading": "Cargando...",
+        "form-url": "https://docs.google.com/forms/d/e/1FAIpQLScS49nyuMujeEBAcqxc-HP__TBTc2UxB9OoCORyNCtHSWvBFA/viewform?embedded=true"
     },
     "terms-of-use": {
         "title": "Términos de uso",
