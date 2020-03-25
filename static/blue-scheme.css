@@ -547,6 +547,65 @@ blockquote {
   font-weight: 600;
   margin: 30px 0 20px 0;
 }
+/*------------------------------------------------------
+  Sponsors Styling
+--------------------------------------------------------*/
+
+.sponsors {
+  margin-top: 5px;
+}
+.sponsors-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.sponsors-column{
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.sponsors-column img{
+  margin-top: 8px;
+  width: 100% !important;
+  height: auto;
+  display: block;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.sponsors-column .details{
+  font-size: 16px;
+  padding: 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.sponsors-column .details .span{
+  display: block;
+  opacity: 0;
+  position: relative;
+  top: 100px;
+  -webkit-transition-property: top, opacity;
+  transition-property: top, opacity;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.sponsors-column .details .title{
+  line-height: 1;
+  font-weight: 600;
+  font-size: 18px;
+}
+
 
 /*------------------------------------------------------
 	Portfolio Styling
@@ -1296,7 +1355,6 @@ blockquote {
 @media (max-width: 991px) {
   .site-header {
     padding: 18px 0;
-    position: relative !important;
   }
 
   .first-widget {
@@ -1325,6 +1383,15 @@ blockquote {
     display: block;
   }
 }
+@media screen and (max-width: 800px) {
+  .sponsors-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
 @media (max-width: 767px) {
   .parallax {
 	background-position: center center !important;
@@ -1351,4 +1418,12 @@ blockquote {
     width: 100%;
     height: auto;
   }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .sponsors-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 }

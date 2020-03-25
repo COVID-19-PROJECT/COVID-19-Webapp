@@ -14,6 +14,7 @@
           </div> <!-- /.container -->
         </div> <!-- /.parallax-overlay -->
     </section> <!-- /#homeIntro -->
+    <sponsors/>
     <section class="cta clearfix">
       <div class="container">
         <div class="row">
@@ -28,6 +29,20 @@
 </template>
 
 <script>
+import sponsors from '~/components/Sponsors.vue'
 export default {
+  components: {
+    sponsors,
+  },
+  data () {
+    return {
+      isActive: false,
+    }
+  },
+  watch: {
+    '$route' () {
+      this.isActive = false
+    },
+  },
 }
 </script>
