@@ -1,5 +1,5 @@
 <template>
-  <header class="site-header clearfix">
+  <header class="site-header site-header-color clearfix " id="header">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -42,6 +42,8 @@ export default {
   data () {
     return {
       isActive: false,
+      scrollPosition: null,
+      scrollTop: 0,
     }
   },
   watch: {
@@ -49,12 +51,32 @@ export default {
       this.isActive = false
     },
   },
+  mounted () {
+    window.addEventListener('scroll', this.updateScroll)
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.updateScroll)
+  },
   methods: {
     toggleMenu () {
       this.isActive = !this.isActive
     },
+    updateScroll () {
+      this.scrollPosition = window.scrollY
+      const header = document.getElementById('header')
+      console.log(document.body.scrollTop)
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        header.classList.add('site-header-scroll')
+        header.classList.remove('site-header-color')
+      } else {
+        header.classList.remove('site-header-scroll')
+        header.classList.add('site-header-color')
+      }
+    },
+
   },
 }
+
 </script>
 
 <style lang="scss" scoped>

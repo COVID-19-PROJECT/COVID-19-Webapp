@@ -172,7 +172,6 @@ a, a:visited {
   top: 0;
   left: 0;
   width: 100%;
-  background: #18367F;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
   -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
@@ -182,8 +181,14 @@ a, a:visited {
   transition: padding 0.3s ease-in-out;
   -moz-transition: padding 0.3s ease-in-out;
   -webkit-transition: padding 0.3s ease-in-out;
+  transition: background-color 0.4s ease-out;
 }
-
+.site-header-color{
+  background-color: rgb(14, 37, 95) !important;
+}
+.site-header-scroll{
+  background-color: #18367F !important;
+}
 .site-header.site-header-shrink {
   padding: 20px 0;
 }
@@ -490,18 +495,24 @@ input.mainBtn {
 }
 
 .home-intro-content {
-  padding: 11em 0;
+  padding: 2em 0;
   text-align: center;
 }
 .home-intro-content h2 {
   font-size: 36px;
   font-weight: 800;
   color: white;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
 }
 .home-intro-content p {
-  margin: 55px 0;
+  margin: 30px 0;
   font-size: 18px;
   line-height: 32px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
 }
 .home-intro-content .large-button:hover {
   opacity: 0.8;
@@ -1354,7 +1365,7 @@ blockquote {
 --------------------------------------------------------*/
 @media (max-width: 991px) {
   .site-header {
-    padding: 18px 0;
+    padding: 5px 0;
   }
 
   .first-widget {
@@ -1417,6 +1428,14 @@ blockquote {
   .isotope-item {
     width: 100%;
     height: auto;
+  }
+
+  .home-intro-content p{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .home-intro-content h2{
+    font-size: 30px;
   }
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {

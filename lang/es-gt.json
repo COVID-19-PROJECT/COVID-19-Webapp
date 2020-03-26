@@ -1,7 +1,7 @@
 {
     "general": {
-        "site-name": "Quedate en casa - GT",
-        "site-description" : "Una aplicación para el seguimiento de la propagación del coronavirus en Guatemala.\n\nEspera por más actualizaciones."
+        "site-name": "\n Quédate en casa - GT",
+        "site-description" : "Quédate en casa nace debido a la crisis global provocada por el COVID-19, gracias al esfuerzo de distintos desarrolladores interesados en la implementación de la tecnología para así prevenir una distribución masiva del virus en el territorio guatemalteco. \n La idea consta en poder usar los teléfonos portátiles como aparatos capaces de brindar información sobre posibles focos de contagio y dar una asistencia centralizada a las personas que piensen puedan ser portadores del virus COVID-19, esto a manera de fortalecer las medidas de prevención que fueron impuestas por el gobierno. \n \n Al día de hoy, hemos formado un grupo multidisciplinario que no consta únicamente de desarrolladores independientes, sino que incluye a empresas privadas para poder llevar adelante el proyecto, quienes trabajan de manera remota para llevar adelante esta iniciativa. \n Porque creemos en Guatemala, y porque sabemos que solamente actuando juntos como sociedad podemos salir de esta crisis, porque este virus se alimenta del egoísmo, porque sabemos que con conciencia social y las herramientas adecuadas juntos saldremos adelante, siendo de guatemaltecos, para guatemaltecos."
     },
     "navigation": {
         "terms-of-use": "Términos de uso",
@@ -21,5 +21,9 @@
         "consent-content": "Al usar nuestro sitio web, usted acepta nuestro descargo de responsabilidad y acepta sus términos.",
         "updates-title": "Actualizaciones",
         "updates-content": "En caso de que actualicemos, modifiquemos o realicemos cambios en este documento, dichos cambios se publicarán de manera destacada aquí."
+    },
+    "sponsors":{
+      "title": "Patrocinadores",
+      "description": "Gracias a los entes por creer en el proyecto"
     }
 }
